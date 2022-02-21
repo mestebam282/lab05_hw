@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+        int category;
+        cout <<"Enter a category of hurrice (1 through 5): ";
+        cin >> category;
+
+        if (category == 1){
+                cout <<"The windspeed is 74-95 mph."<<endl;
+        }
+        else if (category == 2){
+                cout <<"The windspeed is 96-110 mph."<<endl;
+        }
+        else if (category == 3){
+                cout <<"The windspeed is 111-130 mph."<<endl;
+        }
+        else if (category == 4){
+                cout <<"The windspeed is 131-155 mph."<<endl;
+        }
+        else if (category == 5){
+                cout <<"The windspeed exceeds 155 mph."<<endl;
+        }
+        
+        return 0;
+}
