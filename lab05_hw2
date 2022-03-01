@@ -1,0 +1,18 @@
+int main(){
+
+
+int day = 1;
+double amount = 0.01;
+
+
+cout <<"Day \t Amount"<<endl;
+while(amount < 10000){
+    cout << day << "\t" << "$" << setw(8) << amount << endl;
+    day++;
+    amount = amount*2;
+}
+
+cout << day << "\t" << "$" << setw(8) << amount << endl;
+
+return 0;
+}
